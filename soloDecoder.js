@@ -1,3 +1,5 @@
+const frame = window.frames['IframeLesson'];
+let cookie = frame.Nida.Cookies.getValue("assessment", "pull", "0");
 function decode(input) {
 	let encoded = input.split("$$").find(p => p.startsWith("pull:")).split(":")[1]
 	let encodedSplit = encoded.split(",")
@@ -7,3 +9,4 @@ function decode(input) {
         return String.fromCharCode(value);
     });
 }
+console.log(decode(cookie));
