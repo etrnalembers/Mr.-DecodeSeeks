@@ -46,7 +46,7 @@
     </p>
     <p>
       <a class="bookmarklet"
-        href="javascript:(function()%7Bconst%20frame%3Dwindow.frames.IframeLesson.contentWindow%3Blet%20cookie%3Dframe.Nida.Cookies.get(%22assessment%22)%3Bfunction%20decode(e)%7Breturn%20e.split(%22%24%24%22).find(e%3D%3Ee.startsWith(%22pull%3A%22)).split(%22%3A%22).split(%22%2C%22).map((e%2Ct)%3D%3E%7Blet%20s%3DparseInt(e.substr(e.length-3%2C3)%2C10)-13-t%3Breturn%20String.fromCharCode(s)%7D).join(%22%22)%7Dalert(%22Decoded%20Assessment%3A%5Cn%5Cn%22%2Bdecode(cookie))%3B%7D)()">Bookmarklet</a>
+        href="javascript:(function()%7Bconst%20frame%3Dwindow.frames.IframeLesson.contentWindow%3Blet%20cookie%3Dframe.Nida.Cookies.get(%22assessment%22)%3Bfunction%20decode(e)%7Breturn%20e.split(%22%24%24%22).find(e%3D%3Ee.startsWith(%22pull%3A%22)).split(%22%3A%22)%5B1%5D.split(%22%2C%22).map((e%2Ct)%3D%3E%7Blet%20s%3DparseInt(e.substr(e.length-3%2C3)%2C10)-13-t%3Breturn%20String.fromCharCode(s)%7D).join(%22%22)%7Dalert(%22Decoded%20Assessment%3A%5Cn%5Cn%22%2Bdecode(cookie))%3B%7D)()">Bookmarklet</a>
     </p>
 
     <p class="dim">Assisted by <a href="https://github.com/mrcoles/bookmarklet">bookmarklet</a> npm library!</p>
