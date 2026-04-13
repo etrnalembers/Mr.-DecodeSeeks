@@ -10,3 +10,7 @@ Assessments are pretty easy to decipher when you incorporate some Node and Bookm
 4. From the install.html script you can drag up to your bookmarks bar, the bookmarklet will work as intended. Just execute the code wrapped in 'Open Your Mind' while that window is open, and your answers should appear like a singular string. Remember them, but you can execute it as many times as you'd like.
 5. When you score that easy 100%, exit the test in your browser first. Afterwards, close the original window that popped up when you clicked on the lesson link. That should close the DevTools instance and treat the saving protocol like you never left the child window. Congratulations! Your moral esteem shrinks and your ego grows.
 
+## FUTURE IMPLEMENTATIONS
+v1.1 - Mr. DecodeSeeks will interact with the debugger tool automatically. Unlike cash, I plan on packing this bookmarklet extensively with lovely subfunctions instead of isolating Python (unless he actually automates it the same way)!
+v1.2 - Mr. DecodeSeeks will be given new fashion and some UI tricks.
+v1.3 - Mr. DecodeSeeks will be capable of pulling answer source information to be presented like a formal answer key; as some of us enjoy reflecting on how we did rather than just brute-forcing exams.
